@@ -1,20 +1,15 @@
 <script setup lang="ts">
 
-import CurrentlyIcon from "@/components/CurrentlyIcon.vue";
 </script>
 
 <template>
-  <div class="flex gap-5 lg:px-auto lg:flex-row flex-col justify-center">
-    <CurrentlyIcon/>
-    <div>
-      <h1 class="font-bold text-4xl text-zinc-800 tracking-widest">Currently Notes</h1>
-      <h3>
-        An Open source, markdown based, cloud hosted note-taking app.
-      </h3>
-      <div class="text-zinc-500 font-light">
-        (Temporary Homepage)
-      </div>
-    </div>
+  <div class="flex flex-col">
+    <h1 class="font-bold text-center text-5xl pb-2 text-zinc-800 tracking-widest">Currently Notes</h1>
+    <h3 class="text-center text-zinc-500">
+      A Markdown based, note-taking app.
+      (All features listed are subject to change 😅)
+    </h3>
+    <a href="https://app.currentlynotes.com" class="font-bold mx-auto"> Visit the App!</a>
   </div>
 </template>
 
